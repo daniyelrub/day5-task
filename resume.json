@@ -1,0 +1,47 @@
+{
+    "name": "Daniyal Ruban",
+    "age": 25,
+    "education": "MSc Mathematics",
+    "location": "Rameswaram",
+    "college_name": "Govt Arts and Science College",
+    "skills": ["HTML", "CSS", "JavaScript", "Excel", "Sports"]
+  }
+  
+
+
+
+  const resumeData = {
+    "name": "Daniyal Ruban",
+    "age": 25,
+    "education": "MSc Mathematics",
+    "location": "Rameswaram",
+    "college_name": "Govt Arts and Science College",
+    "skills": ["HTML", "CSS", "JavaScript", "Excel", "Sports"]
+  };
+  
+  
+  for (let key in resumeData) {
+    console.log(key + ": " + resumeData[key]);
+  }
+
+  
+//for loop
+
+  for (let key in resumeData) {
+    console.log(key + ": " + resumeData[key]);
+  }
+  
+
+//for of loop
+  const skills = resumeData.skills;
+  for (let skill of skills) {
+    console.log(skill);
+  }
+
+  
+
+  //for each loop
+  resumeData.skills.forEach(skill => {
+    console.log(skill);
+  });
+  
